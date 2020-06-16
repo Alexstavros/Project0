@@ -1,3 +1,12 @@
+body {
+    background: url(img/1.jpg);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    color: white;
+}
+
 p {
     color: black;
     text-align: center;
@@ -6,7 +15,7 @@ p {
 table {
     border: 2px solid black;
     border-collapse: collapse;
-    width: 50%;
+    width: 25%;
 }
 
 th,
