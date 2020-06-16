@@ -16,6 +16,7 @@ table {
     border: 2px solid black;
     border-collapse: collapse;
     width: 25%;
+    color: #000;
 }
 
 th,
