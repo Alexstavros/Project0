@@ -1,38 +1,56 @@
-body {
-    background: url(img/1.jpg);
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    color: white;
-}
-
-table {
-    border: 2px solid black;
-    border-collapse: collapse;
-    width: 25%;
-    color: #000;
-}
-
-th,
-td {
-    border: 1px solid black;
-    background-color: lightgray;
-    padding: 5px;
-}
-
-#Top {
-    font-size: 36px;
-}
-
-#Middle {
-    font-size: 25px;
-}
-
-#Bottom {
-    font-size: 15px;
-}
-
-.name {
-    font-weight: bold;
-}
+    body {
+        background: url("https://srca.oboi.ws/wallpapers/big_2271_oboi_snezhnaja_dolina.jpg");
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        color: #000;
+    }
+    
+    table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 25%;
+        color: #000;
+    }
+    
+    th,
+    td {
+        border: 1px solid black;
+        background-color: lightgray;
+        padding: 5px;
+    }
+    
+    #Top {
+        font-size: 36px;
+    }
+    
+    #Middle {
+        font-size: 25px;
+    }
+    
+    #Bottom {
+        font-size: 15px;
+    }
+    
+    .name {
+        font-weight: bold;
+    }
+    
+    div {
+        color: tomato;
+        background-color: lightgray;
+    }
+    
+    // Mixin itself
+    @mixin clearfix() {
+        &::after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+    }
+    
+    // Usage as a mixin
+    .element {
+        @include clearfix;
+    }
