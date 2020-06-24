@@ -1,5 +1,5 @@
     body {
-        background: url("https://srca.oboi.ws/wallpapers/big_2271_oboi_snezhnaja_dolina.jpg");
+        background: #EFEEDF;
         -moz-background-size: 100%;
         -o-background-size: 100%;
         background-size: 100%;
@@ -41,7 +41,6 @@
         background-color: lightgray;
     }
     
-    // Mixin itself
     @mixin clearfix() {
         &::after {
             display: block;
@@ -50,7 +49,6 @@
         }
     }
     
-    // Usage as a mixin
     .element {
         @include clearfix;
     }
@@ -69,7 +67,7 @@
     
     .header {
         width: 100%;
-        background-color: #00d2ad;
+        background-color: #A06041;
         padding: 20px 0;
     }
     
@@ -153,4 +151,12 @@
             opacity: 1;
             top: 0;
         }
+    }
+    
+    .link_page {
+        background-color: url("img/2.jpg");
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        color: #000;
     }
