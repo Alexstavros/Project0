@@ -1,5 +1,5 @@
     body {
-        background: #EFEEDF;
+        background: #41A08D;
         -moz-background-size: 100%;
         -o-background-size: 100%;
         background-size: 100%;
@@ -38,7 +38,7 @@
     
     div {
         color: black;
-        background-color: lightgray;
+        background-color: #A04197;
     }
     
     @mixin clearfix() {
