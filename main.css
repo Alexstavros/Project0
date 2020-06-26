@@ -37,13 +37,13 @@
     }
     
     div {
-        color: tomato;
+        color: black;
         background-color: lightgray;
     }
     
     @mixin clearfix() {
         &::after {
-            display: block;
+            display: flex;
             content: "";
             clear: both;
         }
@@ -153,10 +153,6 @@
         }
     }
     
-    .link_page {
-        background-color: url("img/2.jpg");
-        -moz-background-size: 100%;
-        -o-background-size: 100%;
-        background-size: 100%;
-        color: #000;
+    h1 {
+        text-align: center;
     }

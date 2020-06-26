@@ -1,0 +1,103 @@
+.menu__item {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+
+body {
+    background-color: #C0C0C0;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 25%;
+    color: #000;
+    margin: 15px;
+    margin: auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#IndianRed {
+    color: #CD5C5C;
+    background-color: burlywood;
+}
+
+#Pink {
+    color: #FFC0CB;
+}
+
+#LightSalmon {
+    color: LightSalmon;
+    background-color: coral;
+}
+
+#Gold {
+    color: Gold;
+    background-color: black;
+}
+
+#Aqua {
+    color: Aqua;
+}
+
+#White {
+    color: White;
+    background-color: red;
+}
+
+#Yellow {
+    color: Yellow;
+    background-color: saddlebrown;
+}
+
+#Red {
+    color: Red;
+}
+
+h1 {
+    color: rgb(165, 255, 47);
+    text-indent: 25px;
+    text-shadow: 0 0 1em red;
+}
+
+h2 {
+    color: rgb(58, 128, 0);
+    text-align: center;
+    text-shadow: 0 0 1em black;
+}
+
+img {
+    text-align: center;
+}
+
+.link_page {
+    background-image: url(https://pbs.twimg.com/media/Dh1kxn1W0AA335d.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 700px;
+    margin-top: 100px;
+}
+
+.cs50 {
+    background-image: url(https://lyapidov.ru/wp-content/uploads/2017/07/this-is-cs50-2015-LOGO.png);
+    background-repeat: no-repeat;
+    background-size: 1600px 700px;
+    margin-top: 100px;
+    color: red;
+}
+
+.title {
+    color: brown;
+    font-weight: bold;
+}
+
+.cv {
+    background-image: url(https://cdn-media-1.freecodecamp.org/ghost/2019/01/cs50_6.png);
+    color: coral;
+}

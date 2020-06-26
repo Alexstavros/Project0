@@ -1,86 +1,102 @@
 <!DOCTYPE html>
 <html>
 
-<head>
- 
-    <title>My Webpage</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    
+<head> 
+  <title>My Webpage</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="main1.css"> 
 </head>
 
 <body class="link_page">
 
-    <header class="header">
-        <div class="wrapper">
-            <div class="row">
-                <div class="logo">
-                    <img src="img/2.jpg" alt="Logo" class="logo__pic">
-                </div>
-                <nav class="menu">
-                    <a href="index.html" class="menu__item">Home</a>
-                    <a href="link.html" class="menu__item">Second page</a>
-                    <a href="link1.html" class="menu__item">Third page</a>
-                    <a href="link2.html" class="menu__item">Forth page</a>
-                    <a href="link3.html" class="menu__item">Contact Us</a>
-                </nav>
-                <div class="callback">
-                    <button class="callback__btn">Заказать звонок</button>
-                </div>
-            </div>
-        </div>   
-    </header>
-    <script>
-        window.onscroll = function showHeader() {
-    var header = document.querySelector('.header');
-    if (window.pageYOffset > 200) {
-        header.classList.add('header_fixed');
-    } else {
-        header.classList.remove('header_fixed');
-    }
-}
+  </nav>
+  <div class="fixed-top">
+  <div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-dark p-4">
+    <a href="index.html" class="menu__item">Home</a>
+    <a href="link.html" class="menu__item">Second page</a>
+    <a href="link1.html" class="menu__item">Colors</a>
+        
+    <a href="link3.html" class="menu__item">About me</a>
+    <h5 class="text-white h4"></h5>
+    <span class="text-muted"></span>
+    </div>   
+    
+  </div>
+  <nav class="navbar navbar-dark  bg-dark">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+     <script src="Scripts/myscript.js">        
     </script>
-<a class="nav-link" href="index.html">Home</a>
-<ul>
-        <li>One Item</li>
-        <li>Another Item</li>
-        <li>Yet Another Item</li>
-        <li>Yet Another Item</li>
-        <li>Yet Another Item</li>
-    </ul>
-    An Ordered Lisr:
-    <ol>
-        <li>One Item</li>
-        <li>Another Item</li>
-        <li>Yet Another Item</li>
-        <li>Yet Another Item</li>
-        <li>Yet Another Item</li>
-    </ol>
+<br>
+<br> 
+<br> 
+<br>     
+<div>
 
     <table>
-        Presidents
+        <h2>Colors</h2>
         <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Years</th>
+            <th>HTML</th>
+            <th>HEX</th>
+            <th>RGB</th>
 
         </tr>
-        <tr>
-            <td>Gorge</td>
-            <td>Washington</td>
-            <td>1789-1797</td>
+        <tr id="IndianRed">
+            <td>IndianRed</td>
+            <td>#CD5C5C</td>
+            <td>205, 92, 92</td>
 
         </tr>
-        <tr>
-            <td>Jhon</td>
-            <td>Adams</td>
-            <td>1979-1801</td>
+        <tr id="Pink">
+            <td>Pink</td>
+            <td>#FFC0CB</td>
+            <td>255, 192, 203</td>
+        </tr>
+        <tr id="LightSalmon">
+            <td>LightSalmon</td>
+            <td>#FFA07A</td>
+            <td>255, 160, 122</td>
 
+        </tr>
+        <tr id="Gold">
+            <td>Gold</td>
+            <td>#FFD700</td>
+            <td>255, 215, 0</td>
+        </tr>
+        <tr id="Aqua">
+            <td>Aqua</td>
+            <td>#00FFFF</td>
+            <td>0, 255, 255</td>
+
+        </tr>
+        <tr id="White">
+            <td>White</td>
+            <td>#FFFFFF</td>
+            <td>255, 255, 255</td>
+        </tr>
+        <tr id="Yellow">
+            <td>Yellow</td>
+            <td>#FFFF00</td>
+            <td>255, 255, 0</td>
+
+        </tr>
+        <tr id="Red">
+            <td>Red</td>
+            <td>#FF0000</td>
+            <td>255, 0, 0</td>
         </tr>
 
     </table>
-
+    
+</div>
 
    
 </body>
